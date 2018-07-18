@@ -1,0 +1,34 @@
+{
+  "name": "corsair-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "nodemon": "DEBUG=\"corsair-backend:*\" nodemon build/bin/server.js",
+    "start": "DEBUG=\"corsair-backend:*\" node build/bin/server.js",
+    "flow-typed": "flow-typed install",
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cookie-parser": "1.4.3",
+    "debug": "2.6.9",
+    "express": "4.16.0",
+    "morgan": "1.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-preset-env": "1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "flow-bin": "^0.76.0",
+    "gulp": "3.9.1",
+    "gulp-babel": "7.0.1",
+    "gulp-flowtype": "^1.0.0",
+    "gulp-sourcemaps": "2.6.4",
+    "nodemon": "^1.18.3"
+  }
+}
